@@ -14,7 +14,7 @@ Quick Start
 In your child frame add the following script tag.
 
 ```html
-<script src="https://unpkg.com/iframe-broadcaster@0.6.0/iframe-broadcaster.min.js"></script>
+<script src="https://unpkg.com/iframe-broadcaster@0.9.0/iframe-broadcaster.min.js"></script>
 ```
 
 In your parent window add the following integration code.
