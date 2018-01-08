@@ -36,12 +36,14 @@
                         ? {
                             id: e.target.id
                             ,className: e.target.className
+                            ,tagName: e.target.tagName
                         }
                         : undefined
                     ,parent: e.target && e.target.parentNode
                         ? {
                             id: e.target.parentNode.id
                             ,className: e.target.parentNode.className
+                            ,tagName: e.target.parentNode.tagName
                         }
                         : undefined
                     ,coords: k == 'click'
