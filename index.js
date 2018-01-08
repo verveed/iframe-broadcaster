@@ -29,9 +29,9 @@
                     ,shiftKey: e.shiftKey
                     ,metaKey: e.metaKey
                     ,keyCode: e.keyCode
-                    ,value: e.value
-                    ,checked: e.checked
-                    ,selectedIndex: e.selectedIndex
+                    ,value: e.target != null && e.target.value
+                    ,checked: e.target != null && e.target.checked
+                    ,selectedIndex: e.target != null && e.target.selectedIndex
                     ,target: e.target
                         ? {
                             id: e.target.id
