@@ -54,7 +54,7 @@
                         }
                         : undefined
                 }
-                parent.postMessage(message, '*')
+                parent.postMessage(JSON.parse(JSON.stringify(message)), '*')
             })
         })
     })
