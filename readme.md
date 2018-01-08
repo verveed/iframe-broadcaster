@@ -115,7 +115,7 @@ Used to identify which key was pressed in the child iframe.
 Used to identify if the shift key was active when the key event fired.
 
 
-#### e.data.meta
+#### e.data.metaKey
 
 > For keyboard events only
 
