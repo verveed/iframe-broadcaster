@@ -25,7 +25,7 @@
                     type: 'iframe-broadcast'
                     ,eventType: k
                     ,error: k == 'error' ? e.message : undefined
-                    ,stack: k == 'error' ? e.stack : undefined
+                    ,stack: k == 'error' ? e.stack+"" : undefined
                     ,shiftKey: e.shiftKey
                     ,metaKey: e.metaKey
                     ,keyCode: e.keyCode
