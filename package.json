@@ -1,0 +1,17 @@
+{
+  "name": "iframe-broadcaster",
+  "version": "0.7.0",
+  "description": "Broadcast events from an iframe to the parent window.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "cat index.js | uglifyjs -mc > iframe-broadcaster.min.js"
+  },
+  "files": [
+    "iframe-broadcaster.min.js"
+  ],
+  "author": "james.a.forbes@gmail.com <=> (http://james-forbes.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "uglify-js": "^3.3.5"
+  }
+}
