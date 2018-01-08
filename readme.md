@@ -14,7 +14,7 @@ Quick Start
 In your child frame add the following script tag.
 
 ```html
-<script src="https://unpkg.com/iframe-broadcaster@0.9.0/iframe-broadcaster.min.js"></script>
+<script src="https://unpkg.com/iframe-broadcaster@0.10.0/iframe-broadcaster.min.js"></script>
 ```
 
 In your parent window add the following integration code.
@@ -134,6 +134,24 @@ The error message that was fired in the child iframe context.
 > For error events only
 
 The stack at the time an error fired in the child iframe context.
+
+#### e.data.value
+
+> Only available when an event was dispatched from an element with a value property.
+
+The value property of the element that was dispatched.
+
+#### e.data.checked
+
+> Only available when an event was dispatched from an element with a checked property.
+
+The checked property of the element that was dispatched.
+
+#### e.data.selectedIndex
+
+> Only available when an event was dispatched from an element with a selectedIndex property.
+
+The selectedIndex property of the element that was dispatched.
 
 Future Work
 -----------
